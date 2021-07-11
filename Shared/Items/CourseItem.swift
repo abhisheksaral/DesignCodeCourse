@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
-//  Shared
+//  CourseItem.swift
+//  DesignCodeCourse
 //
-//  Created by Abhishek Saral on 7/10/21.
+//  Created by Abhishek Saral on 7/11/21.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct CourseItem: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4.0) {
             Spacer()
@@ -31,10 +31,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct CourseItem_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-        ContentView()
-            .preferredColorScheme(.dark)
+        CourseItem()
     }
 }
