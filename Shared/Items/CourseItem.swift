@@ -20,8 +20,10 @@ struct CourseItem: View {
             }
             Text("SwiftUI for iOS 14")
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .foregroundColor(Color.white)
             Text("20 Sections")
                 .font(.footnote)
+                .foregroundColor(Color.white)
                 
         }
         .padding(.all)
